@@ -908,7 +908,7 @@ html {
   cursor: pointer;
 }
 
-.a93 {
+.a93:hover {
   background: linear-gradient(55deg, #ff3f3a 0%, #f75e05 100%);
   color: #ffffff;
   border: none;
