@@ -2610,11 +2610,7 @@ html {
     accent-color: #ff3f3a;
 }
 
-.a647 {
-    font-size: 14px;
-    color: #424551;
-    line-height: 1.4;
-}
+
 
 .a648 {
     background: linear-gradient(55deg, #ff3f3a 0%, #f75e05 100%);
@@ -2626,4 +2622,14 @@ html {
     font-weight: 700;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(255, 63, 58, 0.2);
+}
+.a647 {
+    font-size: 14px;
+    color: #424551;
+    line-height: 1.4;
+}
+.a647 {
+    font-size: 14px;
+    color: #424551;
+    line-height: 1.3;
 }
