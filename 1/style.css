@@ -2609,9 +2609,14 @@ html {
 .a646 {
     accent-color: #ff3f3a;
 }
-
-
-
+@media screen and (max-width:1278px) {
+  
+  .aa1{
+    display: grid;
+    flex-direction: column;
+  }
+}
+  
 
 .a647 {
     font-size: 14px;
