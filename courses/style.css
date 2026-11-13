@@ -2691,3 +2691,214 @@ html {
   right: 0;
   margin-top: 299px;
 }
+@media screen and (max-width: 1280px) {
+    .a3, .a33, .a44, .a63, .a77, .a98, .a112, .a122, .a140, .a157, .a201, .a226, .a302, .a402, .a502, .a561, .a602, .a632 {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .a2 .a3, .a301 .a302, .a401 .a402, .a501 .a502, .a601 .a602 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .a7, .a306, .a406, .a506, .a606 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .a9, .a309, .a609 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .a15, .a33, .a70, .a112, .a413, .a427, .a510, .a561, .a615, .a632 {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .a16, .a36, .a113, .a511, .a530, .a616 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .a17, .a21, .a117, .a620, .a627 {
+        justify-content: center;
+    }
+
+    .a40, .a526 {
+        text-align: left;
+    }
+
+    .a24, .a74, .a119, .a562 {
+        justify-content: center;
+    }
+
+    .a27 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .a31 {
+        display: none;
+    }
+
+    .a49, .a145, .a237 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .a105 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .a164, .a208 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .a420 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .a629 {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .a20, .a38, .a47, .a66, .a80, .a101, .a115, .a124, .a143, .a159, .a203, .a229, .a317, .a411, .a514, .a575, .a618, .a637 {
+        font-size: 32px;
+    }
+
+    .a45, .a99, .a141, .a230, .a318, .a527, .a573 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .a231, .a319 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .a234, .a322 {
+        width: 100%;
+    }
+
+    .a49, .a105, .a145, .a164, .a208, .a237 {
+        grid-template-columns: 1fr;
+    }
+
+    .a50 {
+        flex-direction: column;
+    }
+
+    .a51 {
+        width: 100%;
+        height: 220px;
+    }
+
+    .a67 {
+        flex-wrap: wrap;
+    }
+
+    .a82, .a326 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 24px;
+    }
+
+    .a83, .a327 {
+        width: auto;
+        justify-content: center;
+    }
+
+    .a88, .a332 {
+        padding: 0;
+    }
+
+    .a94 {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .a125 {
+        flex-direction: column;
+    }
+
+    .a127 {
+        padding: 40px 24px;
+    }
+
+    .a160, .a204, .a566 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .a161, .a162, .a205, .a206, .a567, .a568 {
+        border-radius: 4px;
+        padding: 14px;
+        width: 100%;
+    }
+
+    .a179, .a223 {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .a639, .a644 {
+        flex-direction: column;
+        gap: 16px;
+        align-items: stretch;
+    }
+
+    .a648 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .a21 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .a22, .a23, .a42, .a48, .a91, .a96, .a144, .a310, .a335, .a610 {
+        width: 100%;
+    }
+
+    .a515 {
+        flex-wrap: wrap;
+    }
+
+    .a517 {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:811px) {
+  .a234{
+    display:none;
+  }
+}
+@media screen and (max-width:500px) {
+  .a118{
+    display:none;
+  }
+}
