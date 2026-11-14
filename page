@@ -1,1 +1,171 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createx - Event Details</title>
+    <link rel="stylesheet" href="event.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero & Navbar Wrapper (Och pushti fon bilan) -->
+    <div class="hero-wrapper">
+        <header class="navbar">
+            <div class="container nav-container">
+                <div class="nav-left">
+                    <a href="index.html" class="logo">CREATE<span>X</span></a>
+                    <nav class="nav-links">
+                        <a href="#">About Us</a>
+                        <a href="#">Courses</a>
+                        <a href="index.html" class="active">Events</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contacts</a>
+                    </nav>
+                </div>
+                <div class="nav-right">
+                    <a href="#" class="btn btn-primary">Get consultation</a>
+                    <a href="#" class="auth-link">👤 Log in / Register</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="event-hero">
+            <div class="container">
+                <span class="subtitle red-text">ONLINE LECTURE</span>
+                <h1 class="main-title">Formation of the organizational structure of the company in the face of uncertainty</h1>
+            </div>
+        </section>
+    </div>
+
+    <!-- We Will Talk About & Event Sidebar -->
+    <section class="program-section">
+        <div class="container program-grid">
+            <!-- Left: Accordion -->
+            <div class="program-content">
+                <h2>We will talk about:</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item active">
+                        <div class="accordion-header">
+                            <span class="icon">−</span>
+                            <span class="theme-num">Theme 1.</span>
+                            <h3>Aliquet lectus urna viverra in odio.</h3>
+                        </div>
+                        <div class="accordion-body">
+                            <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            <span class="theme-num">Theme 2.</span>
+                            <h3>Orci commodo, viverra orci mollis ut euismod.</h3>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            <span class="theme-num">Theme 3.</span>
+                            <h3>Sagittis vitae facilisi rutrum amet mauris quisque vel.</h3>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            <span class="theme-num">Theme 4.</span>
+                            <h3>In id dolor quis nunc, urna hendrerit pharetra.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Event Info Card -->
+            <div class="event-sidebar">
+                <div class="info-card">
+                    <div class="info-block">
+                        <span class="info-label">TIME</span>
+                        <div class="info-value">August 5, 11:00 – 14:00</div>
+                        <p class="info-desc">Metus turpis sit lorem lacus, in elit tellus lacus.</p>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-label">PRICE</span>
+                        <div class="info-value">Free</div>
+                        <p class="info-desc">Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris quam ac elit tristique dis.</p>
+                    </div>
+
+                    <a href="#" class="fb-link">EVENT ON FACEBOOK</a>
+
+                    <a href="#" class="btn btn-primary full-btn">Join the event</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaker Section -->
+    <section class="speaker-section">
+        <div class="container speaker-grid">
+            <div class="speaker-image-box">
+                <div class="yellow-bg">
+                    <img src="https://unsplash.com" alt="Kathryn Murphy">
+                </div>
+            </div>
+
+            <div class="speaker-info">
+                <span class="subtitle">SPEAKER</span>
+                <h2>Kathryn Murphy</h2>
+                <p class="speaker-role">Analyst and Marketing specialist in IT company</p>
+                <p class="speaker-bio">
+                    Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam.
+                </p>
+
+                <div class="company-logos">
+                    <span>Del Mar Strategy</span>
+                    <span>Sentinal Consulting</span>
+                    <span>NATIONAL</span>
+                </div>
+
+                <div class="speaker-socials">
+                    <a href="#">f</a>
+                    <a href="#">📷</a>
+                    <a href="#">🐦</a>
+                    <a href="#" class="active">in</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Whom Section -->
+    <section class="for-whom-section">
+        <div class="container for-whom-grid">
+            <div class="for-whom-left">
+                <span class="subtitle">FOR WHOM?</span>
+                <h2>Who will benefit from the event:</h2>
+            </div>
+
+            <div class="for-whom-right">
+                <ul class="benefit-list">
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <p>Specialists with more than 1 year of active work experience</p>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <p>Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces</p>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <p>Professional designers who want to feel more confident in UX</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
