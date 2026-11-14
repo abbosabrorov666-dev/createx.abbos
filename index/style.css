@@ -2892,3 +2892,8 @@ html {
         margin-left: 0;
     }
 }
+@media screen and (max-width:497px) {
+  .a118{
+    display: none;
+  }
+}
