@@ -1,1 +1,230 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createx - Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="nav-left">
+                <a href="#" class="logo">CREATE<span>X</span></a>
+                <nav class="nav-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Courses</a>
+                    <a href="#" class="active">Events</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contacts</a>
+                </nav>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="btn btn-primary">Get consultation</a>
+                <a href="#" class="auth-link">👤 Log in / Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-header">
+        <div class="container">
+            <span class="subtitle">OUR EVENTS</span>
+            <h1 class="main-title">Lectures, workshops & master-classes</h1>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container filters-container">
+            <div class="filter-group">
+                <label>Event category</label>
+                <select>
+                    <option>all themes</option>
+                    <option>Online master-class</option>
+                    <option>Online lecture</option>
+                    <option>Online workshop</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Sort by</label>
+                <select>
+                    <option>newest</option>
+                    <option>oldest</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Show</label>
+                <input type="number" value="9" min="1" max="20" class="show-input">
+                <span class="per-page">events per page</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search event...">
+                <span>🔍</span>
+            </div>
+            <div class="view-toggles">
+                <button class="view-btn active">☷</button>
+                <button class="view-btn">☰</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Grid -->
+    <section class="events-section">
+        <div class="container">
+            <div class="events-grid">
+                <!-- Card 1 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">05 Aug</div>
+                        <div class="event-time">11:00 – 14:00</div>
+                        <h3 class="event-title">Formation of the organizational structure of the company in the face of uncertainty.</h3>
+                        <p class="event-type">Online master-class</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">24 Jul</div>
+                        <div class="event-time">11:00 – 12:30</div>
+                        <h3 class="event-title">Building a customer service department. Best Practices.</h3>
+                        <p class="event-type">Online lecture</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">16 Jul</div>
+                        <div class="event-time">10:00 – 13:00</div>
+                        <h3 class="event-title">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h3>
+                        <p class="event-type">Online workshop</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">10 Jul</div>
+                        <div class="event-time">9:00 – 14:00</div>
+                        <h3 class="event-title">Find and evaluate: search and assessment tools for candidates.</h3>
+                        <p class="event-type">Online workshop</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">27 Jun</div>
+                        <div class="event-time">15:00 – 19:00</div>
+                        <h3 class="event-title">Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI</h3>
+                        <p class="event-type">Online master-class</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 6 (Highlighted as in image) -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">15 Jun</div>
+                        <div class="event-time">11:00 – 12:00</div>
+                        <h3 class="event-title">Marketing or growth hacking: main differences and what business needs</h3>
+                        <p class="event-type">Online lecture</p>
+                    </div>
+                    <a href="#" class="btn btn-primary full-btn">View more</a>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">02 Jul</div>
+                        <div class="event-time">11:00 – 13:00</div>
+                        <h3 class="event-title">How to brief a client and present your design to approve it from the first show.</h3>
+                        <p class="event-type">Online lecture</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">29 May</div>
+                        <div class="event-time">11:00 – 12:00</div>
+                        <h3 class="event-title">Who is a project manager and do I want to be PM?</h3>
+                        <p class="event-type">Online lecture</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="event-card">
+                    <div class="card-top">
+                        <div class="event-date">18 May</div>
+                        <div class="event-time">10:00 – 12:00</div>
+                        <h3 class="event-title">The company's business page as an additional tool to support the announcement of vacancies.</h3>
+                        <p class="event-type">Online lecture</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">View more</a>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">→</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Banner -->
+    <section class="subscribe-section">
+        <div class="container subscribe-container">
+            <span class="subtitle">DON'T MISS ANYTHING</span>
+            <h2>Subscribe to the Createx School announcements</h2>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Your working email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col about-col">
+                <a href="#" class="logo footer-logo">CREATE<span>X</span></a>
+                <p>Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">t</a>
+                    <a href="#">y</a>
+                    <a href="#">tg</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>SITE MAP</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>COURSES</h4>
+                <ul>
+                    <li><a href="#">Marketing</a></li>
 
