@@ -1,0 +1,346 @@
+:root {
+  --primary: #ff3f3a;
+  --primary-hover: #e0322d;
+  --primary-gradient: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  --peach-bg: rgba(255, 63, 58, 0.16);
+  --yellow-card: #ffcf2d;
+  --dark: #1e212c;
+  --gray-text: #424551;
+  --muted-text: #787a80;
+  --light-gray: #d7dadd;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--gray-text);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subtitle {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--dark);
+  line-height: 1.25;
+}
+
+.center {
+  text-align: center;
+}
+
+/* SECTION 1: CURATOR */
+.curator-section {
+  padding: 80px 0;
+}
+
+.curator-grid {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.yellow-bg {
+  background-color: var(--yellow-card);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 480px;
+}
+
+.yellow-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.curator-role {
+  font-size: 18px;
+  color: var(--muted-text);
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.curator-stats {
+  list-style: none;
+  margin-bottom: 28px;
+}
+
+.curator-stats li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.curator-stats .icon {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.curator-bio {
+  font-size: 15px;
+  color: var(--gray-text);
+  margin-bottom: 32px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--muted-text);
+  font-weight: 700;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover,
+.social-links a.active {
+  color: var(--primary);
+}
+
+/* SECTION 2: STEPS */
+.steps-section {
+  padding: 60px 0 80px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.step-number {
+  font-size: 38px;
+  font-weight: 900;
+  color: var(--light-gray);
+  line-height: 1;
+}
+
+.step-number.highlight {
+  color: var(--primary);
+  background: rgba(255, 63, 58, 0.12);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+}
+
+.step-line {
+  flex: 1;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--light-gray) 50%, transparent 50%);
+  background-size: 8px 1px;
+  margin-left: 16px;
+}
+
+.step-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.step-item p {
+  font-size: 14px;
+  color: var(--muted-text);
+}
+
+/* SECTION 3: DISCOUNT BANNER */
+.discount-section {
+  padding: 20px 0 80px;
+}
+
+.discount-box {
+  background: var(--peach-bg);
+  border-radius: 4px;
+  padding: 48px 60px;
+}
+
+.discount-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.discount-top h2 {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--dark);
+}
+
+.countdown {
+  display: flex;
+  gap: 24px;
+}
+
+.time-block {
+  text-align: center;
+}
+
+.time-block .num {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--dark);
+}
+
+.time-block .label {
+  font-size: 12px;
+  color: var(--dark);
+}
+
+.discount-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+  gap: 24px;
+  align-items: end;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: var(--gray-text);
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 44px;
+  padding: 0 16px;
+  border: 1px solid #d7dadd;
+  border-radius: 4px;
+  background: var(--white);
+  font-family: inherit;
+  font-size: 14px;
+}
+.form-group input::placeholder {
+  color: #9a9ca5;
+}
+
+.btn-primary {
+  height: 44px;
+  padding: 0 32px;
+  background: var(--primary-gradient);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* SECTION 4: FOR WHOM */
+.audience-section {
+  padding: 40px 0 100px;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.audience-list {
+  list-style: none;
+}
+
+.audience-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gray-text);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.check-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--primary);
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 992px) {
+  .curator-grid,
+  .audience-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .discount-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-box {
+    padding: 32px 24px;
+  }
+}
